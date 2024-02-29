@@ -25,7 +25,7 @@ public class DatosFormularioControlador {
         this.datosFormularioService = datosFormularioService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String crear(Model model) {
         DatosFormulario datosFormulario = new DatosFormulario();
         model.addAttribute("datosFormulario", datosFormulario);
