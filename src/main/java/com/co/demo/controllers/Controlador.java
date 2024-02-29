@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.stereotype.Controller;
 
 @Controller
-@RequestMapping("/Taller1")
+@RequestMapping("/bftaller1")
 public class Controlador {
     @GetMapping("/band")
 	public String band() {
