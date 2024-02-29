@@ -15,7 +15,7 @@ import com.co.demo.service.ImDatosFormularioService;
 
 @Controller
 @RestController
-@RequestMapping("/bftaller1")
+@RequestMapping("/bftaller1/home")
 public class DatosFormularioControlador {
 
     private ImDatosFormularioService datosFormularioService;
